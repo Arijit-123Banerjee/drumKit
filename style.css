@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #19172e;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.icons {
+  height: 7vh;
+}
+
+button {
+  height: 20vh;
+  width: 26%;
+  background-color: #19172e;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  cursor: pointer;
+}
+
+.key kbd {
+  font-size: 1.9rem;
+  color: greenyellow;
+}
+
+button:active {
+  transform: scale(10px);
+  background: #fff;
+  transition: 0.3s;
+  box-shadow: 2px 2px 20px orange;
+}
